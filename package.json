@@ -1,0 +1,21 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "routes.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "server": "node routes.js",
+        "start": "NODE_ENV=production node routes.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "fast-csv": "^4.3.6",
+        "lodash": "^4.17.21",
+        "mysql": "^2.18.1"
+    }
+}
